@@ -1,9 +1,13 @@
-# Gorest_Api_Testing
+# Gorest_Api_Testing using POSTMAN
 
 
 Files
 1. Gorest.postman_collection.json – Postman collection with test scenarios
 2. Gorest.postman_environment.json – Environment file with variables (base_url, authToken)
+
+Download the collection file and environment file. Import Collection file in collection tab and Import environment file in environment tab.
+
+NOTE : Before starting the api testing please make sure that you have set the environment to Gorest. (Click on BaseUrl in Endpoint then click environment and set environment into Gorest)
 
 To test:
 Scenario 1
@@ -11,6 +15,7 @@ Scenario 1
    Action: Create a new employee entry with:
    name , gender , email , status (active or inactive)
    Validation: The id returned in the response is in numerical format
+   
 Scenario 2
    Endpoint: GET https://gorest.co.in/public/v2/users
    Test giving the status anything instead of active or inactive
